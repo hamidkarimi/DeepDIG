@@ -1,5 +1,5 @@
 
-# This document explains the instructions to run the DeepDIG project
+## This document explains the instructions to run the [DeepDIG](https://arxiv.org/pdf/1912.11460.pdf) project
 
 ## Initialization
 
@@ -11,7 +11,7 @@
 
 4. In `config.py` change  the variable PATH to _ProjectPath_ i.e., the path that you entered when running `initial_script.py`
 
-***
+
 
 ## Training a pre-trained model
 
@@ -21,8 +21,6 @@
 	
 	**Example**: `python -m DeepDIGCode.PreTrainedModels.FASHIONMNIST.CNN.train --dataset FASHIONMNIST --pre-trained-model CNN` this will train the _CNN_ model for _FASHIONMNIST_ and then saves it.
 
-
-***
 ## Running the DeepDIG framework ([Figure 2](https://arxiv.org/pdf/1912.11460.pdf)) 
 
 1. Open a terminal and go to the upper-level directory containing DeepDIG code where you cloned the code `/cd _CodePath`
@@ -45,4 +43,28 @@ this will run DeepDIG against the trained _CNN_ on _FASHIONMNIST_ to characteriz
 (_deer_, _ship_)
 
 3.  All results including visualizations will be saved in the _CodePath/DeepDIG/{DATASET}/{PretrainedModel}/{(s,t)}
-    where DATASET is the input dataset, PretrainedModel is the given pre-trained model, and s and t are input classes  e.g. _CodePath/DeepDIG/CIFAR10/ResNet/(4,8) in **Example 3:**
+    where DATASET is the input dataset, PretrainedModel is the given pre-trained model, and s and t are input classes  e.g. _CodePath/DeepDIG/CIFAR10/ResNet/(4,8) in **Example 3**
+
+## Citations
+
+If you use the code in this repository, please cite the following papers
+
+@article{karimi2019characterizing,
+  title={Characterizing the Decision Boundary of Deep Neural Networks},
+  author={Karimi, Hamid and Derr, Tyler and Tang, Jiliang},
+  journal={arXiv preprint arXiv:1912.11460},
+  year={2019}
+}
+
+
+@inproceedings{karimi2020decision,
+  title={Decision Boundary of Deep Neural Networks: Challenges and Opportunities},
+  author={Karimi, Hamid and Tang, Jiliang},
+  booktitle={Proceedings of the 13th International Conference on Web Search and Data Mining},
+  pages={919--920},
+  year={2020}
+}
+
+## Contact
+Web page: [http://cse.msu.edu/~karimiha/](http://cse.msu.edu/~karimiha/)
+Email: [karimiha@msu.edu](karimiha@msu.edu)
