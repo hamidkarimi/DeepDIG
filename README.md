@@ -1,6 +1,9 @@
 
 ## This document explains the instructions to run the [DeepDIG](https://arxiv.org/pdf/1912.11460.pdf) project
 
+
+![DeepDIG](http://cse.msu.edu/~karimiha/images/StepWiseDeepDIG.jpg)
+
 ## Initialization
 
 1. Clone the project by running `git clone git@github.com:hamidkarimi/DeepDIG.git` in a path on your machine. Let's call this path _CodePath_
