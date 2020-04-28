@@ -28,7 +28,7 @@ parser.add_argument('--batch_size', type=int, default=128,
                     help='input batch size for training (default: 128)')
 
 parser.add_argument("--middle-point-threshold", type=float, required=False, default=0.0001,
-                    help="Coefficient of reconstruction loss")
+                    help="Parameter beta in Algorithm 1")
 parser.add_argument("--alpha", type=float, required=False, default=0.8,
                     help="Coefficient of target loss")
 parser.add_argument("--classes",type=str,default="1;2",help="The investigated classes")
