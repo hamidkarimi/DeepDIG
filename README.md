@@ -36,7 +36,8 @@ Please refer to [here](https://github.com/hamidkarimi/DeepDIG/wiki/Run-DeepDIG-a
 
 this will run DeepDIG against the trained _CNN_ on _FASHIONMNIST_ to characterize the decision boundary of classes 1 and 2 (i.e., _Trouser_ and _Pullover_) 
 
-**Note 1** See here for the explantion of [DeepDIG's arguments](https://github.com/hamidkarimi/DeepDIG/wiki/Arguments-explanation). 
+**Note 1.** See here for the explantion of [DeepDIG's arguments](https://github.com/hamidkarimi/DeepDIG/wiki/Arguments-explanation). 
+
 **Note 2.** That model should be trained before as explained above.
 
 **Note 3.** Classes are referred numerically from 0 to n-1 where n is the number of classes. For instance, you can find the classes of CIFAR10 [here](https://www.cs.toronto.edu/~kriz/cifar.html). See the following examples
