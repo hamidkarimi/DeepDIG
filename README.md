@@ -24,7 +24,7 @@
 	
 	**Example**: `python -m DeepDIGCode.PreTrainedModels.FASHIONMNIST.CNN.train --dataset FASHIONMNIST --pre-trained-model CNN` this will train the _CNN_ model for _FASHIONMNIST_ and then saves it.
 
-Please refer to [here](https://github.com/hamidkarimi/DeepDIG/wiki/Run-DeepDIG-against-a-new-dataset-model) to see how you can run DeepDIG against your new dataset/model.
+Please refer to [here](https://github.com/hamidkarimi/DeepDIG/wiki/Run-DeepDIG-against-a-new-dataset-and-or-model) to see how you can run DeepDIG against your new dataset/model.
 
 ## Running the DeepDIG framework ([Figure 2](https://arxiv.org/pdf/1912.11460.pdf)) 
 
