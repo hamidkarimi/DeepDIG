@@ -16,7 +16,7 @@
 
 
 
-## Training a pre-trained model
+## Training a the base model
 
 1. Open a terminal and go to the upper-level directory containing the DeepDIG code i.e., where you cloned the code `/cd _CodePath`
 2. run `python -m DeepDIG.PreTrainedModels.{DATASET}.{MODEL}.train --dataset {DATASET} --pre-trained-model {MODEL}`
