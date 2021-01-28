@@ -11,7 +11,7 @@ import time
 time_start = time.time()
 
 print ("Running DeepDIG for {} --> {} ...".format(utils.classes['s'],utils.classes['t']))
-################# s-->t (Figure 2 in the manuscript) #################
+################# s-->t (Figure 2 in the paper) #################
 train_adv.train_s_t() # Component (I)
 train_adv_of_adv.train_s_t_s() # Component (II)
 borderline_sample_generation.deepdig_borderline_samples_s_t() # Component (III)
@@ -21,7 +21,7 @@ print ('='*100)
 
 print ("Running DeepDIG for {} --> {}...".format(utils.classes['t'],utils.classes['s']))
 
-################# t-->s (Figure 2 in the manuscript) #################
+################# t-->s (Figure 2 in the paper) #################
 train_adv.train_t_s() # Component (I)
 train_adv_of_adv.train_t_s_t() # Component (II)
 borderline_sample_generation.deepdig_borderline_samples_t_s() # Component (III)
@@ -30,7 +30,7 @@ print ("Finished DeepDIG for {} --> {}...".format(utils.classes['t'],utils.class
 print ('='*100)
 
 print ("Running the baselines")
-################# Baselines (Section 5.2 in the manuscript) #################
+################# Baselines (Section 5.2 in the paper) #################
 borderline_sample_generation.random_pair_borderline_search() #RPBS
 borderline_sample_generation.embedding_nearest_pair_borderline_search() #EPBS
 ##################################################
@@ -39,7 +39,7 @@ print ('='*100)
 
 print ("Running the decision boundary characterization ...")
 
-################# Decision boundary chracterization (Section 4 in the manuscript) #################
+################# Decision boundary chracterization (Section 4 in the paper) #################
 characterization.trajectory_metrics() # Section 4.1
 characterization.linearity_metrics() # Section 4.2
 ####################################################################################################
