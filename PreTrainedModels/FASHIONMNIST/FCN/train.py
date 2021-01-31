@@ -10,8 +10,8 @@ import random
 import os
 
 from .. import utils
-from DeepDIG.PreTrainedModels.FASHIONMNIST.FCNLayer2.model import Model
-from DeepDIG import config
+from DeepDIGCode.PreTrainedModels.FASHIONMNIST.FCNLayer2.model import Model
+from DeepDIGCode import config
 
 args = config.args
 
