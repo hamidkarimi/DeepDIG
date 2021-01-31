@@ -10,7 +10,7 @@ import random
 import os
 
 from .. import utils
-from DeepDIGCode.PreTrainedModels.MNIST.FCNLayer2.model import Model
+from DeepDIGCode.PreTrainedModels.MNIST.FCN.model import Model
 from DeepDIGCode import config
 
 args = config.args
