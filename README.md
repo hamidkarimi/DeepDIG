@@ -43,7 +43,9 @@ this will run DeepDIG against the trained _CNN_ on _FASHIONMNIST_ to characteriz
 (_deer_, _ship_)
 
 3.  All results including visualizations will be saved in the /home/user/Downloads/DeepDIGCode/PreTrainedModels/{DATASET}/{MODEL}/{(s,t)}
-    where DATASET is the input dataset, MODEL is the base model, and s and t are input classes  e.g. /home/user/Downloads/DeepDIGCode/PreTrainedModels/FASHIONMNIST/CNN/(1,2) 
+    where DATASET is the input dataset, MODEL is the base model, and s and t are input classes for which you intend to genderate the borderline examples
+
+ e.g. /home/user/Downloads/DeepDIGCode/PreTrainedModels/FASHIONMNIST/CNN/(1,2) 
     
 
 ## Citations
