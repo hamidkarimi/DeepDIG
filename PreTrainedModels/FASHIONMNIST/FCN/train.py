@@ -84,7 +84,7 @@ def main():
                 scheduler.step()
 
             torch.save(model,save_dir+'pre_trained_model.m')
-            print(epoch, loss.data[0])
+            print(epoch, loss.data)
             test(save_results=False)
 
     train()
