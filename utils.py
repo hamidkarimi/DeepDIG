@@ -15,12 +15,12 @@ args = config.args
 _classes = args.classes.split(';')
 _classes = [int(a) for a in _classes]
 classes={'s':_classes[0],'t':_classes[1]}
-dataset_utils = importlib.import_module("DeepDIG.PreTrainedModels." + args.dataset + ".utils")
+dataset_utils = importlib.import_module("DeepDIGCode.PreTrainedModels." + args.dataset + ".utils")
 dir_path = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(dir_path+'/PreTrainedModels/'+args.dataset+'/'+ args.pre_trained_model)
 sys.path.append(dir_path+'/PreTrainedModels/'+args.dataset)
 
-ae_module = importlib.import_module("DeepDIG.PreTrainedModels." + args.dataset + ".ae")
+ae_module = importlib.import_module("DeepDIGCode.PreTrainedModels." + args.dataset + ".ae")
 if not os.path.exists(args.project_dir+'PreTrainedModels/'+args.dataset+'/'+ args.pre_trained_model + '/({},{})'.format(classes['s'], classes['t'])):
     os.makedirs(args.project_dir+'PreTrainedModels/'+args.dataset+'/'+ args.pre_trained_model + '/({},{})'.format(classes['s'], classes['t']))
 
