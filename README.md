@@ -6,11 +6,11 @@
 
 ## Initialization
 
-1. Clone the project by running `git clone git@github.com:hamidkarimi/DeepDIG.git` in a path on your machine. Let's call this path _CodePath_
+1. Download the zip file of the code from this repository. Unzip it and rename the directory to **DeepDIGCode**. Let's assume this directory in a path called _CodePath_ on your machine (e.g., _CodePath_  can /user/Downloads)
 2. Run `initial_script.py`. It prompts for a path on your machine to create a directory holding the data, results, etc. Make sure there is enough space in that path where you place the project (at least a couple of GBs). Let's call this path _ProjectPath_
-3. Copy or cut **Data** from the cloned Github repository to _ProjectPath_/DeepDIG/
+3. Copy or cut **Data** from the DeepDIGCode directory to _ProjectPath_/DeepDIG/
 
-4. MNIST and FASHIONMNIST data are already uploaded. For CIFAR10, download the data from [here](https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz), unzip it and copy the files into _ProjectPath_/DeepDIG/CIFAR10
+4. Data for MNIST and FASHIONMNIST are already uploaded. For CIFAR10, download the data from [here](https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz), unzip it and copy the files into _ProjectPath_/DeepDIG/CIFAR10
 
 4. In `config.py` change  the variable PATH to _ProjectPath_ i.e., the path that you entered when running `initial_script.py`
 
@@ -19,7 +19,7 @@
 ## Training a the base model
 
 1. Open a terminal and go to the upper-level directory containing the DeepDIG code i.e., where you cloned the code `/cd _CodePath`
-2. run `python -m DeepDIG.PreTrainedModels.{DATASET}.{MODEL}.train --dataset {DATASET} --pre-trained-model {MODEL}`
+2. run `python -m DeepDIGCode.PreTrainedModels.{DATASET}.{MODEL}.train --dataset {DATASET} --pre-trained-model {MODEL}`
         where `DATASET` is the name of the dataset and `MODEL` is the name of the model
 	
 	**Example**: `python -m DeepDIGCode.PreTrainedModels.FASHIONMNIST.CNN.train --dataset FASHIONMNIST --pre-trained-model CNN` this will train the _CNN_ model for _FASHIONMNIST_ and then saves it.
