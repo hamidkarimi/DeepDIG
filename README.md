@@ -1,5 +1,5 @@
 
-## This document explains the instructions to run the [DeepDIG](https://arxiv.org/pdf/1912.11460.pdf) project
+## This document explains the instructions to run the [DeepDIG]([https://arxiv.org/pdf/1912.11460.pdf](https://ieeexplore.ieee.org/abstract/document/10069079)) project
 
 
 ![DeepDIG](http://cse.msu.edu/~karimiha/images/StepWiseDeepDIG.jpg)
