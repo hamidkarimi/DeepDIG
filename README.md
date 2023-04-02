@@ -48,25 +48,21 @@ this will run DeepDIG against the trained _CNN_ on _FASHIONMNIST_ to characteriz
  e.g. /home/user/Downloads/DeepDIGCode/PreTrainedModels/FASHIONMNIST/CNN/(1,2) 
     
 
-## Citations
+## Citation
 
-If you use the code in this repository, please cite the following papers
+If you use the code in this repository, please cite the following paper
 
-@article{karimi2019characterizing,
-  title={Characterizing the Decision Boundary of Deep Neural Networks},
-  author={Karimi, Hamid and Derr, Tyler and Tang, Jiliang},
-  journal={arXiv preprint arXiv:1912.11460},
-  year={2019}
-}
+@INPROCEEDINGS{Karimi2022DeepDIG,
+  author={Karimi, Hamid and Derr, Tyler},
+  booktitle={2022 21st IEEE International Conference on Machine Learning and Applications (ICMLA)}, 
+  title={Decision Boundaries of Deep Neural Networks}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1085-1092},
+  doi={10.1109/ICMLA55696.2022.00179}
+  }
 
-
-@inproceedings{karimi2020decision,
-  title={Decision Boundary of Deep Neural Networks: Challenges and Opportunities},
-  author={Karimi, Hamid and Tang, Jiliang},
-  booktitle={Proceedings of the 13th International Conference on Web Search and Data Mining},
-  pages={919--920},
-  year={2020}
-}
 
 ## Contact
 Web page: [http://cse.msu.edu/~karimiha/](http://cse.msu.edu/~karimiha/)
