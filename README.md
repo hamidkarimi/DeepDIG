@@ -65,5 +65,5 @@ If you use the code in this repository, please cite the following paper
 
 
 ## Contact
-Web page: [wwww.hamidkarimi.com](www.hamidkarimi.com)
+Web page: [www.hamidkarimi.com](www.hamidkarimi.com)
 Email: [hamid.karimiha@usu.edu](hamid.karimiha@usu.edu)
