@@ -1,7 +1,7 @@
 
 ## This document explains the instructions to run the [DeepDIG](https://ieeexplore.ieee.org/abstract/document/10069079) project
 
-![DeepDIG](https://www.usu.edu/cs/people/HamidKarimi/images/StepWiseDeepDIG.pdf)
+![DeepDIG](https://www.usu.edu/cs/people/HamidKarimi/images/StepWiseDeepDIG.jpg)
 
 ## Initialization
 
