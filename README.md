@@ -65,5 +65,5 @@ If you use the code in this repository, please cite the following paper
 
 
 ## Contact
-Web page: [http://cse.msu.edu/~karimiha/](http://cse.msu.edu/~karimiha/)
-Email: [karimiha@msu.edu](karimiha@msu.edu)
+Web page: [wwww.hamidkarimi.com](www.hamidkarimi.com)
+Email: [hamid.karimiha@usu.edu](hamid.karimiha@usu.edu)
