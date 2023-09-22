@@ -30,7 +30,7 @@ Please refer to [here](https://github.com/hamidkarimi/DeepDIG/wiki/Run-DeepDIG-a
 
 this will run DeepDIG against the trained _CNN_ on _FASHIONMNIST_ to characterize the decision boundary of classes 1 and 2 (i.e., _Trouser_ and _Pullover_) 
 
-**Note 1.** See here for the explantion of [DeepDIG's arguments](https://github.com/hamidkarimi/DeepDIG/wiki/Arguments-explanation). 
+**Note 1.** See here for the explanation of [DeepDIG's arguments](https://github.com/hamidkarimi/DeepDIG/wiki/Arguments-explanation). 
 
 **Note 2.** Classes are referred numerically from 0 to n-1 where n is the number of classes. For instance, you can find the classes of CIFAR10 [here](https://www.cs.toronto.edu/~kriz/cifar.html). See the following examples
 
@@ -41,16 +41,16 @@ this will run DeepDIG against the trained _CNN_ on _FASHIONMNIST_ to characteriz
 **Example :** `python -m DeepDIGCode.main --dataset CIFAR10 --pre-trained-model ResNet --classes "4;8"`
 (_deer_, _ship_)
 
-3.  All results including visualizations will be saved in the /home/user/Downloads/DeepDIGCode/PreTrainedModels/{DATASET}/{MODEL}/{(s,t)}
+3.  All results, including visualizations will be saved in the /home/user/Downloads/DeepDIGCode/PreTrainedModels/{DATASET}/{MODEL}/{(s,t)}
     where DATASET is the input dataset, MODEL is the base model, and s and t are input classes for which you intend to genderate the borderline examples
 
- e.g. /home/user/Downloads/DeepDIGCode/PreTrainedModels/FASHIONMNIST/CNN/(1,2) 
+ e.g.,/home/user/Downloads/DeepDIGCode/PreTrainedModels/FASHIONMNIST/CNN/(1,2) 
     
 
 ## Citation
 
-If you use the code in this repository, please cite the following paper
-
+If you use the code in this repository, please cite the following papers.
+### Short conference version
 @INPROCEEDINGS{Karimi2022DeepDIG,
   author={Karimi, Hamid and Derr, Tyler},
   booktitle={2022 21st IEEE International Conference on Machine Learning and Applications (ICMLA)}, 
@@ -62,7 +62,15 @@ If you use the code in this repository, please cite the following paper
   doi={10.1109/ICMLA55696.2022.00179}
   }
 
+### Full version (Arxiv)
+
+@article{karimi2019characterizing,
+  title={Characterizing the decision boundary of deep neural networks},
+  author={Karimi, Hamid and Derr, Tyler and Tang, Jiliang},
+  journal={arXiv preprint arXiv:1912.11460},
+  year={2019}
+}
 
 ## Contact
-Web page: [www.hamidkarimi.com](http://www.hamidkarimi.com)
+Web page: [https://dsa.cs.usu.edu/](https://dsa.cs.usu.edu/) 
 Email: [hamid.karimi@usu.edu](hamid.karimi@usu.edu)
